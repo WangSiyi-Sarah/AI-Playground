@@ -57,20 +57,20 @@ nav ul li a {
 }
 
 .tools-section {
-    padding: 10px;
+    padding: 0px;
     text-align: center;
 }
 
 .tools-section h1 {
     font-size: 48px; /* 大标题字体大小 */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .tools {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 一行显示六个工具 */
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
 }
 
 .tools .tool {

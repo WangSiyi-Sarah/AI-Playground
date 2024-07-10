@@ -69,14 +69,14 @@ nav ul li a {
 .tools {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 一行显示六个工具 */
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
 }
 
 .tools .tool {
     background: white;
-    border: 1px solid #ddd;
-    padding: 20px;
+    border: 2px solid #ddd;
+    padding: 10px;
     text-align: center;
     transition: transform 0.3s;
     display: flex;

@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: url('images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.hero .overlay {
+    color: #ffcc00; /* 麦当劳的黄色 */
+    padding: 20px;
+    position: absolute;
+    top: 35%; /* 调整 top 值来向上移动文字 */
+    transform: translateY(-1cm); /* 向上移动1厘米 */
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 64px; /* 增大字体大小 */
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 32px; /* 增大字体大小 */
+}
+
+.tools-section {
+    padding: 10px;
+    text-align: center;
+}
+
+.tools-section h1 {
+    font-size: 48px; /* 大标题字体大小 */
+    margin-bottom: 20px;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 一行显示六个工具 */
+    gap: 20px;
+    padding: 20px;
+}
+
+.tools .tool {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tools .tool:hover {
+    transform: scale(1.05);
+}
+
+.tools .tool img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* 保持图片大小一致 */
+}
+
+.tools .tool h2 {
+    font-size: 20px;
+    margin: 0px 0;
+    text-align: center;
+    width: 100%; /* 确保宽度占满父元素 */
+    display: block; /* 确保 h2 是块级元素 */
+    align-self: center; /* 确保 h2 在父元素内居中 */
+}
+
+.tools .tool p {
+    font-size: 12px;
+    color: #666;
+}
+
+.tools .tool a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.about, .contact {
+    padding: 20px;
+    flex: 1;
+    max-width: 800px; /* 控制页面宽度 */
+    margin: 0 auto; /* 居中页面内容 */
+}
+
+.about h1, .contact h1 {
+    text-align: center; /* 标题居中 */
+}
+
+.about p {
+    text-align: left; /* 正文左对齐 */
+}
+
+.contact p {
+    text-align: center; /* 联系我们页面内容居中 */
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+

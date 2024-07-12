@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>黑灰产识别 - AI Playground</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .tools.centered {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* 增加间距 */
+            flex-wrap: wrap; /* 使工具在小屏幕上换行 */
+        }
+
+        .tools.centered .tool {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 修改为居中对齐 */
+            width: 25%; /* 调整宽度以适应布局 */
+        }
+
+        .tools.centered .tool h2 {
+            font-size: 24px;
+            margin: 15px 0;
+            text-align: center; /* 确保文本居中 */
+            width: 100%; /* 确保宽度占满父元素 */
+            display: block; /* 确保 h2 是块级元素 */
+        }
+
+        .tools.centered .tool p {
+            font-size: 16px;
+            color: #666;
+            margin: 0; /* 确保描述文本紧跟在标题后 */
+            text-align: center; /* 描述文本居中 */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto; /* 将footer固定在页面底部 */
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="ai-tools.html">AI能力</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="tools-section">
+            <h1>黑灰产识别</h1>
+            <div class="tools centered">
+                <div class="tool">
+                    <a href="http://example.com/sensitive-case">
+                        <h2>新店选址</h2>
+                        <p>通过新店选址工具，基于未来一年销售预估确定最优的新店选址。</p>
+                    </a>
+                </div>
+                <div class="tool">
+                    <a href="http://mmlops.mcdchina.net:17003/">
+                        <h2>财务预估</h2>
+                        <p>使用财务预估工具，可基于用户输入来调整预估值。</p>
+                    </a>
+                </div>
+                <div class="tool">
+                    <a href="http://example.com/coupon-fraud">
+                        <h2>预估引擎复用性</h2>
+                        <p>预估引擎复用工具可提升销售预估模型的通用性和可复用性，帮助用户在不同场景下精准预测销售趋势。</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 麦当劳中国区数据部AI中台</p>
+    </footer>
+</body>
+</html>
+
